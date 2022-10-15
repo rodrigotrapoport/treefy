@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-2 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="2020.39" y1="569.87" x2="2788.39" y2="569.87" gradientTransform="translate(-1721.39 -185.87)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b1fcc8"/>
+      <stop offset="0" stop-color="#affbc8"/>
+      <stop offset=".17" stop-color="#84e6d0"/>
+      <stop offset=".33" stop-color="#61d5d7"/>
+      <stop offset=".49" stop-color="#46c8dc"/>
+      <stop offset=".66" stop-color="#32bfe0"/>
+      <stop offset=".83" stop-color="#26b9e2"/>
+      <stop offset="1" stop-color="#23b8e3"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-3" y="-768" width="1366" height="768"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-3" x="-61.38" y="-848.94" width="1509.97" height="848.94"/>
+    </clipPath>
+  </defs>
+  <rect class="cls-4" x="299" y="-299" width="768" height="1366" transform="translate(1067 -299) rotate(90)"/>
+  <g class="cls-2">
+    <g class="cls-1">
+      <image width="6000" height="3376" transform="translate(-135.97 -932.88) scale(.28)" xlink:href="../../Images/dan-gold-Uuh0K9YtNM8-unsplash-retouch.jpg"/>
+    </g>
+  </g>
+</svg>

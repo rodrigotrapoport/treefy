@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 231 70">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #04e0d2;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        filter: url(#drop-shadow-2);
+        font-family: Larsseit-Bold, Larsseit;
+        font-size: 25.49px;
+      }
+
+      .cls-3 {
+        letter-spacing: -.11em;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2"/>
+      <feGaussianBlur result="blur" stdDeviation="2"/>
+      <feFlood flood-color="#000" flood-opacity=".45"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1"/>
+      <feFlood flood-color="#000" flood-opacity=".3"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-1" x="4.82" y="4.88" width="217.3" height="56.63" rx="28.32" ry="28.32"/>
+      <text class="cls-2" transform="translate(32.91 42.12)"><tspan x="0" y="0">GET S</tspan><tspan class="cls-3" x="67.39" y="0">T</tspan><tspan x="80.34" y="0">ARTED</tspan></text>
+    </g>
+  </g>
+</svg>
