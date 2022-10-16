@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Treefy - CO2 Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+         <div class="row">
+            <label for="heladeras">Cuantas heladeras tienes?</label>
+            
+            <input type="number" id="heladeras" name="heladeras">
+         </div>
+        <div class="row">
+            <label for="caloventores">Cuantas caloventores tienes?</label>
+        
+            <input type="number" id="caloventores" name="caloventores">
+        </div>
+        <div class="row">
+            <label for="aa">Cuantas aires acondicionados tienes?</label>
+        
+            <input type="number" id="aa" name="aa">
+        </div>
+        <div class="row">
+            <label for="lavaropas">Cuantas lavaropas tienes?</label>
+        
+            <input type="number" id="lavaropas" name="lavaropas">
+        </div>
+        <div class="row">
+            <label for="pavas">Cuantas pavaeléctricas tienes?</label>
+        
+            <input type="number" id="pavas" name="pavas">
+        </div>
+        <div class="row">
+            <label for="computadoras">Cuantas computadoras tienes?</label>
+        
+            <input type="number" id="computadoras" name="computadoras">
+        </div>
+        <div class="row">
+            <label for="planchas">Cuantas planchas tienes?</label>
+        
+            <input type="number" id="planchas" name="planchas">
+        </div>
+        <div class="row">
+            <label for="aspiradoras">Cuantas aspiradoras tienes?</label>
+        
+            <input type="number" id="aspiradoras" name="aspiradoras">
+        </div>
+        <div class="row">
+            <label for="hornos_electricos">Cuantas hornos electricos tienes?</label>
+        
+            <input type="number" id="hornos_electricos" name="hornos_electricos">
+        </div>
+        <div class="row">
+            <label for="microondas">Cuantas microondas tienes?</label>
+        
+            <input type="number" id="microondas" name="microondas">
+        </div>
+        <div class="row">
+            <label for="tvleds">Cuantas TV Leds de 34 a 50 pulgadas tienes?</label>
+        
+            <input type="number" id="tvleds" name="tvleds">
+        </div>
+        <div class="row">
+            <button class="btn-success" onclick="calcularmedium();">Calcular</button>
+        </div>
+        <div class="row">
+            <p>En un año estas generando TC02</p>
+            <p id="total"></p>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <script src="js/calculator_co2.js"></script>
+
+</body>
+
+</html>
