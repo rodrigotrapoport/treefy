@@ -1,0 +1,37 @@
+section.lets-put-more{
+  background-image: url("../images/Backgrounds/Landing-Back-2.jpg");
+}
+section.video-section{
+  background-image: url("../images/Backgrounds/Landing-Back-5.jpg");
+}
+section.partners-section{
+  background-image: url("../images/Backgrounds/Landing-Back-6.jpg");
+}
+img.lets-put-icon{
+  max-height: 5rem;
+}
+img.partners-icon{
+  max-height: 7.8rem;
+}
+.color-uno{
+  color: rgb(81, 144, 255);
+}
+header>div.container>a>img{
+  max-width: 15rem;
+}
+.button-pic{
+  max-width: 15rem;
+}
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-5,
+.col-lg-5 {
+  float: left;
+  width: 20%;
+  min-height: 1px; 
+  position: relative;
+}
+.footer-logo{
+  width: 7rem;
+}
