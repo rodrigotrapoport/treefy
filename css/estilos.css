@@ -17,7 +17,9 @@ rgb(248,218,158) --- naranja
   font-family: Larsseit;
   src: url(../css/fonts/Larsseit/Larsseit/Larsseit.otf);
 }
-
+h1, h2, h3, h4, h5, h6,p{
+  font-family: Larsseit !important;
+}
 section.lets-put-more{
   height: 70vh;
   background-image: linear-gradient(rgb(192,255,200), rgb(0,145,228));
