@@ -1,3 +1,13 @@
+/* color: rgb(116,183,224) */
+/* Paleta de colores:
+rgb(145,87,246) --- violeta
+rgb(44,167,236) --- celeste
+rgb(0,145,228) --- azul
+rgb(10,177,169) ---verde
+rgb(4,225,211) --- verde agua
+rgb(192,255,200) --- verde clarito
+rgb(248,218,158) --- naranja
+ */
 @font-face {
   font-family: Baloo2;
   src: url(../css/fonts/Baloo_2/Baloo2-VariableFont_wght.ttf);
@@ -9,13 +19,16 @@
 }
 
 section.lets-put-more{
-  background-image: url("../images/Backgrounds/Landing-Back-2.jpg");
+  height: 70vh;
+  background-image: linear-gradient(rgb(192,255,200), rgb(0,145,228));
 }
 section.video-section{
-  background-image: url("../images/Backgrounds/Landing-Back-5.jpg");
+  height: 70vh;
+  background-image: linear-gradient(rgb(0,145,228), rgb(4,225,211));
 }
 section.partners-section{
-  background-image: url("../images/Backgrounds/Landing-Back-6.jpg");
+  height: 70vh;
+  background-image: linear-gradient(rgb(4,225,211),rgb(192,255,200));
 }
 img.lets-put-icon{
   max-height: 7rem;
@@ -24,7 +37,7 @@ img.partners-icon{
   max-height: 7.8rem;
 }
 .color-uno{
-  color: rgb(81, 144, 255);
+  color: rgb(44, 167, 236);
 }
 header>div.container>a>img{
   max-width: 15rem;
@@ -45,7 +58,16 @@ header>div.container>a>img{
 .footer-logo{
   width: 7rem;
 }
-*>article{
-
-  color: rgb(116,183,224)
+.icons-row{
+  padding-top: 10vh;
+}
+/* .lets-put-more-border{
+  border: 1px solid white;
+  border-radius: 20%;
+} */
+.partners-icon-row{
+  padding-top: 20vh;
+}
+footer{
+  padding-top: 15vh;
 }
