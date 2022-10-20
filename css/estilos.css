@@ -10,16 +10,37 @@ rgb(248,218,158) --- naranja
  */
 
 section.lets-put-more{
-  height: 70vh;
+  min-height: 70vh;
   background-image: linear-gradient(rgb(192,255,200), rgb(0,145,228));
 }
+section.our-team{
+  min-height: 70vh;
+  background-image: linear-gradient(rgb(192,255,200), rgb(44,167,236));
+}
+section.our-formula{
+  min-height: 85vh;
+  background-image: linear-gradient(rgb(44,167,236), rgb(0,145,228));
+}
+section.about-us{
+  min-height: 85vh;
+  background-image: linear-gradient(rgb(0,145,228), rgb(44,167,236));
+}
+section.footer{
+  /* min-height: 55vh; */
+  background-image: linear-gradient(rgb(44,167,236), rgb(192,255,200));
+}
 section.video-section{
-  height: 70vh;
+  min-height: 70vh;
   background-image: linear-gradient(rgb(0,145,228), rgb(4,225,211));
 }
 section.partners-section{
-  height: 70vh;
+  min-height: 70vh;
   background-image: linear-gradient(rgb(4,225,211),rgb(192,255,200));
+}
+.background-svg{
+  background-image: url("../images/AboutUs/Degraded-Globe.svg");
+  min-height: 40vh;
+  background-repeat: no-repeat;
 }
 img.lets-put-icon{
   max-height: 7rem;
@@ -61,4 +82,14 @@ header>div.container>a>img{
 }
 footer{
   padding-top: 15vh;
+}
+.plus-formula{
+  max-height: 4rem;
+  font-size: 6rem;
+}
+.equal-formula{
+  font-size: 6rem;
+}
+.about-get-started-btn{
+  margin-top: 5%;
 }
