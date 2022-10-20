@@ -8,19 +8,7 @@ rgb(4,225,211) --- verde agua
 rgb(192,255,200) --- verde clarito
 rgb(248,218,158) --- naranja
  */
-@font-face {
-  font-family: Baloo2;
-  src: url(../css/fonts/Baloo_2/Baloo2-VariableFont_wght.ttf);
-}
 
-@font-face {
-  font-family: Larsseit;
-  src: url(../css/fonts/Larsseit/Larsseit/Larsseit.otf);
-}
-
-*{
-  font-family: Larsseit;
-}
 section.lets-put-more{
   height: 70vh;
   background-image: linear-gradient(rgb(192,255,200), rgb(0,145,228));
