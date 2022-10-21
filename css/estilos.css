@@ -37,6 +37,21 @@ section.partners-section{
   min-height: 70vh;
   background-image: linear-gradient(rgb(4,225,211),rgb(192,255,200));
 }
+section.road-map-time-line{
+  min-height: 70vh;
+  background-image: linear-gradient(rgb(4,225,211),rgb(44,167,236));
+}
+.road-map{
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../images/RoadMap/Backbrgound-Roadmap-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
 .background-svg{
   background-image: url("../images/AboutUs/Degraded-Globe.svg");
   min-height: 40vh;
@@ -92,4 +107,32 @@ footer{
 }
 .about-get-started-btn{
   margin-top: 5%;
+}
+@media (min-width: 768px) {
+  header.road-map {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.road-map .road-map-subheading {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.road-map .road-map-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+.road-map-icons{
+  padding-top: 12%;
+  max-width: 70%;
+  height: auto;
+  border-radius: 0%;
+}
+.road-map-icons-dao{
+  max-width: 100%;
+  height: auto;
+  border-radius: 0%;
 }
