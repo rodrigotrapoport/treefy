@@ -9,62 +9,178 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-    
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-    <div class="container">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Easy Way
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body"> <p>For this option you need the electricity bill to know the exact electricity consumption and inform the type of transport
-                    you use.</p>
-                    <a href="easyc02.html"><p class="btn btn-primary">Submit</p></a>
+    <section class="page-section lets-put-more">
+        <div class="container background-transparent">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item background-transparent ">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button background-transparent collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Easy Way
+                    </h2>
+                        </button>
+                        <div class="accordion-body">
+                            <p>For this option you need the electricity bill to know the exact electricity consumption and inform
+                            the type of transport you use.
+                            </p>
                         </div>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 mx-auto">
+                                      <div class="card border-0 shadow rounded-3 my-5 background-transparent-light">
+                                        <div class="card-body p-4 p-sm-5">
+                                          <form>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="wattsh" name="wattsh" class="form-control easy-input">
+                                                <label for="wattsh">Ingresa la cantidad de KWatts Hora que haces en un mes</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="autos" name="autos" class="form-control easy-input">
+                                                <label for="autos">Cuantos kilometros haces con el auto en mes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="camionetas" name="camionetas" class="form-control easy-input">
+                                                <label for="camionetas">Cuantos kilometros haces con la camioneta en un mes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="motos" name="motos" class="form-control easy-input">
+                                                <label for="motos">Cuantaskilometros haces con la motos en un mes?</label>
+                                            </div>
+                                            <div class="row">
+                                                <p>En un año estas generando TC02</p>
+                                                <p id="totalEasy"></p>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <!-- <div class="row">
+                                        <button id ="botonEasy" class="btn btn-primary btn-login text-uppercase fw-bold" onclick="calculareasy();">
+                                            Calcular
+                                        </button>
+                                    </div> -->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                <div class="accordion-item background-transparent">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button background-transparent collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        Medium Level
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <p>In a form that would take you about 5 minutes to fill out, you will give us the number of appliances you have in your
-                        home and the type of transportation you are using.</p>    
-                        <a href="mediumc02.html">
-                            <p class="btn btn-primary">Submit</p>
-                        </a>
+                            Medium Level
+                    </h2>
+                        </button>
+                        <div class="accordion-body">
+                            <p>
+                                In a form that would take you about 5 minutes to fill out, you will give us the number of 
+                                appliances you have in your home and the type of transportation you are using.
+                            </p>
+                            
+                        </div>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body background-transparent">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 mx-auto">
+                                      <div class="card border-0 shadow rounded-3 my-5 background-transparent-light">
+                                        <div class="card-body p-4 p-sm-5 ">
+                                          <form>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="heladeras" name="heladeras" class="form-control medium-input">
+                                                <label for="heladeras">Cuantas heladeras tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="caloventores" name="caloventores" class="form-control medium-input">
+                                                <label for="caloventores">Cuantas caloventores tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="aa" name="aa" class="form-control medium-input">
+                                                <label for="aa">Cuantas aires acondicionados tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="lavaropas" name="lavaropas" class="form-control medium-input">
+                                                <label for="lavaropas">Cuantas lavaropas tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="pavas" name="pavas" class="form-control medium-input">
+                                                <label for="pavas">Cuantas pavaeléctricas tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="computadoras" name="computadoras" class="form-control medium-input">
+                                                <label for="computadoras">Cuantas computadoras tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="planchas" name="planchas" class="form-control medium-input">
+                                                <label for="planchas">Cuantas planchas tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="aspiradoras" name="aspiradoras" class="form-control medium-input">
+                                                <label for="aspiradoras">Cuantas aspiradoras tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="hornos_electricos" name="hornos_electricos" class="form-control medium-input">
+                                                <label for="hornos_electricos">Cuantas hornos electricos tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="microondas" name="microondas" class="form-control medium-input">
+                                                <label for="microondas">Cuantas microondas tienes?</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="number" id="tvleds" name="tvleds" class="form-control medium-input">
+                                                <label for="tvleds">Cuantas TV Leds de 34 a 50 pulgadas tienes?</label>
+                                            </div>
+                                            <div class="row">
+                                                <p>En un año estas generando TC02</p>
+                                                <p id="totalMedium"></p>
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <!-- <div class="row">
+                                        <button id ="botonMedium" class="btn btn-primary btn-login text-uppercase fw-bold"onclick="calcularmedium();">
+                                            Calcular
+                                        </button>
+                                    </div> -->
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item background-transparent">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button background-transparent collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Difficult Level
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Soon we will have it ready for the public.</div>
                     </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        Difficult Level
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Soon we will have it ready for the public.</div>
-                </div>
-            </div>
         </div>
-    </div>
-
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
