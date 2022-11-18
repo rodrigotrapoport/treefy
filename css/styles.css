@@ -11423,6 +11423,8 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
+}
+.front-page{
   background-image: url("../images/Backgrounds/Landing-Back-1.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
