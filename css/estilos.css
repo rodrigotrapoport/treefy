@@ -9,7 +9,8 @@ rgb(192,255,200) --- verde clarito
 rgb(248,218,158) --- naranja
  */
  body {
-  background-image: linear-gradient(rgb(192,255,200), rgb(44,167,236));
+  /* background-image: linear-gradient(to right, rgb(192,255,200), rgb(44,167,236)); */
+  background-image: linear-gradient(to right, #2CA7EC, #17E4D2, #17E4D2, #ACFCB4);
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -264,7 +265,7 @@ footer .social-logo{
   -webkit-clip-path: polygon(var(--path));
   clip-path: polygon(var(--path));
   color: transparent;
-  background-image: linear-gradient(rgb(192,255,200), rgb(44,167,236));
+  background-image: linear-gradient(to right, #2CA7EC, #17E4D2, #17E4D2, #ACFCB4);
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -280,7 +281,7 @@ footer .social-logo{
   -webkit-clip-path: polygon(var(--path));
   clip-path: polygon(var(--path));
   color: transparent;
-  background-image: linear-gradient(rgb(192,255,200), rgb(44,167,236));
+  background-image: linear-gradient(to right, #2CA7EC, #17E4D2, #17E4D2, #ACFCB4);
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
